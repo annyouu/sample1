@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kadai08</title>
+    <style>
+        .container {
+            max-width: 600px;
+            font-family: Arial, sans-serif;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+      <h1>kadai08</h1>
+      <form action="kadai08.php" method="post">
+        <div class="input-group">
+          <label for="kana">カナ:</label>
+          <input type="text" name="kana" id="kana" required>
+        </div>
+        <div class="input-group">
+          <label for="name">氏名:</label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="input-group">
+          <label for="tel">電話番号:</label>
+          <input type="text" name="tel" id="tel" required>
+        </div>
+        <button type="submit">送信する</button>
+      </form>
+    </div>
+  </body>
+
+</html>
